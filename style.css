@@ -1,0 +1,92 @@
+body{
+	background-color: #ADD8E6;
+	
+	
+}
+#piggyvest{
+	font-family: courier;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	
+}
+#L1{
+	font-family: courier;
+	color: #0052cc;
+	font-size: 18px;
+	line-height: 0.1;
+	
+}
+#L2{
+	color: grey;
+	font-size: 12px;
+	line-height: 0.1;
+	height: 35px;
+	font-family: courier;
+}
+#P3{
+	width: 70%;
+	color: black;
+	font-size: 12px;
+	font-family: Berlin Sans FB;
+	font-size:16px;
+	padding: 1px;
+	text-align:left;
+	text-indent:22%;
+	box-sizing: border-box;
+	margin: 8px 0;
+}
+.holder{
+	display: flex;
+	margin: auto;
+	border: 1px;
+	padding:1px;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 500px;
+	width: 500px;
+	background-color: #FFFFFF;
+	border-radius: 20px 20px 20px 0px;
+	text-align: center;
+	padding: 10px;
+}
+input[type=text] {
+    width: 70%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #e6f2ff;
+	border-radius: 5px 5px 5px 5px;
+    color: black;
+}
+input[type=password] {
+    width: 70%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #e6f2ff;
+	border-radius: 5px 5px 5px 5px;
+    color: black;
+}
+input[type=submit] {
+    width: 70%;
+    padding: 18px 20px;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    border: none;
+    background-color: blue;
+	border-radius: 12px 12px 12px 0px;
+    color: white;
+}
+#link{
+	color: white;
+	font-family: courier;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+#Plink{
+	text-align: center;
+}
