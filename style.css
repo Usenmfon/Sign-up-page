@@ -28,19 +28,18 @@ body{
 	width: 70%;
 	color: black;
 	font-size: 12px;
-	font-family: Berlin Sans FB;
+	font-family: "Berlin Sans FB";
 	font-size:16px;
 	padding: 1px;
 	text-align:left;
-	text-indent:22%;
+	text-indent:18%;
 	box-sizing: border-box;
 	margin: 8px 0;
 }
 .holder{
 	display: flex;
 	margin: auto;
-	border: 1px;
-	padding:1px;
+	border: none;
 	justify-content: center;
 	flex-direction: column;
 	min-height: 500px;
@@ -50,18 +49,19 @@ body{
 	text-align: center;
 	padding: 10px;
 }
-input[type=text] {
-    width: 70%;
+input[type=text], select {
+    width: 75%;
     padding: 18px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+	display: inline-block;
     border: none;
     background-color: #e6f2ff;
 	border-radius: 5px 5px 5px 5px;
     color: black;
 }
 input[type=password] {
-    width: 70%;
+    width: 75%;
     padding: 18px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -71,7 +71,7 @@ input[type=password] {
     color: black;
 }
 input[type=submit] {
-    width: 70%;
+    width: 75%;
     padding: 18px 20px;
     margin: 20px 0px;
     box-sizing: border-box;
@@ -79,7 +79,9 @@ input[type=submit] {
     background-color: blue;
 	border-radius: 12px 12px 12px 0px;
     color: white;
+	cursor: pointer;
 }
+
 #link{
 	color: white;
 	font-family: courier;
